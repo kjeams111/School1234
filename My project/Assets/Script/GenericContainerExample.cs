@@ -28,6 +28,8 @@ public class GenericContainerExample : MonoBehaviour
             string randomString = "item" + Random.Range(0, 100);
             stringContainer.Add(randomString);
             DisplayContaineritems(intContainer);
+
+           
         }
     }
 
