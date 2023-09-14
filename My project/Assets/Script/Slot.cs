@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -37,16 +36,11 @@ public class Slot : MonoBehaviour
 
         //생성 item 컴포넌트 데이터 입력
         itemObject = itemGo.GetComponent<item>();
-        itemObject = Init(id,this);
+        itemObject . Init(id,this);
 
         ChangeStateTo(SLOTSTATE.FULL);
 
 
 
      }
-
-    private item Init(int id, Slot slot)
-    {
-        throw new NotImplementedException();
-    }
 }
