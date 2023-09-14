@@ -5,15 +5,11 @@ using UnityEngine;
 public class item : MonoBehaviour
 {
     public int id;
+    public Slot parentSlot;
 
-   // public void init(int id, Slot slot)
-    //{
-
-        //public void init(int id, Slot slot
-        //{
-        //    this.id = id;
-        //    this.parentSlor = slot;
-        // }
-
-   // }
+    public void Init(int id, Slot slot)
+    {
+        this.id = id;
+        this.parentSlot = slot;
+    }
 }

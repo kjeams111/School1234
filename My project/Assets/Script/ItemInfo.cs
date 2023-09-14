@@ -7,10 +7,10 @@ public class ItemInfo : MonoBehaviour
     public int slotld;
     public int itemld;
 
-    public void InitDummy(int slotid, int itemld)
+    public void InitDummy(int slotld, int itemld)
     {
         this.slotld = slotld;
-        this.slotld = itemld;
+        this.itemld = itemld;
 
     }
 }
