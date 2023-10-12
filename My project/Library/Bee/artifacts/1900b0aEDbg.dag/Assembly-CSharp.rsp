@@ -370,8 +370,11 @@
 "Assets/Script/GenericContainer.cs"
 "Assets/Script/GenericContainerExample.cs"
 "Assets/Script/GenericSingletone.cs"
+"Assets/Script/item.cs"
+"Assets/Script/ItemInfo.cs"
 "Assets/Script/SampleController.cs"
 "Assets/Script/Singletone.cs"
+"Assets/Script/Slot.cs"
 -langversion:9.0
 
 /deterministic

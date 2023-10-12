@@ -366,12 +366,21 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/Script/EnemyCtrl.cs"
+"Assets/Script/GameController.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/GenericContainer.cs"
 "Assets/Script/GenericContainerExample.cs"
 "Assets/Script/GenericSingletone.cs"
+"Assets/Script/GetData.cs"
+"Assets/Script/item.cs"
+"Assets/Script/ItemInfo.cs"
+"Assets/Script/ProjectTile.cs"
+"Assets/Script/ProjectTimeTower.cs"
 "Assets/Script/SampleController.cs"
 "Assets/Script/Singletone.cs"
+"Assets/Script/Slot.cs"
+"Assets/Script/Tower.cs"
 -langversion:9.0
 
 /deterministic
